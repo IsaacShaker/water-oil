@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Water-Oil</title>
+    <script defer src="particle.js"></script>
+    <script defer src="script.js"></script>
+    <style>
+      #canvas {
+        background-color: black;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="canvas"></canvas>
+    <button type="button" onclick="separate()" id="separate1">
+      Separate V1
+    </button>
+    <button type="button" onclick="separateV2()" id="separateV2">
+      Separate V2
+    </button>
+    <button type="button" onclick="runSim()" id="run">run</button>
+  </body>
+</html>
